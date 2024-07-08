@@ -1,0 +1,37 @@
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    color: #000;
+}
+.table thead th {
+    background-color: #00a6b2;
+    color: white;
+    font-weight: bold; /* Đậm hơn */
+    text-align: left;
+    padding: 12px;
+}
+.table tbody tr {
+    background-color: transparent; /* Màu nền trong suốt */
+}
+.table tbody tr:hover {
+    background-color:  #a0d7b8; /* Màu nền khi hover */
+    color: white; /* Màu chữ khi hover */
+}
+.table th, .table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: #000;
+}
+.table a {
+    display: block;
+    text-align: center;
+}
+.table a:hover {
+    text-decoration: none;
+}
+.table .fa {
+    font-size: 20px;
+}
